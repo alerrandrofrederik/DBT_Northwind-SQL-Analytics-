@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dbt-northwind-sql-analytics"
+version = "0.1.0"
+description = ""
+authors = ["Alerrandro <alerrandrofrederik@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+dbt-postgres = "^1.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -193,6 +193,70 @@ Utilize o arquivo SQL fornecido, `nortwhind.sql`, para popular o seu banco de da
 * [Começar com Docker](https://www.docker.com/get-started)
 * [Instalar Docker Compose](https://docs.docker.com/compose/install/)
 
+### Passos para rodar o projeto
+
+Na pasta raiz, em uma janela do terminal, suba o docker compose
+```bash
+docker compose up -d
+```
+
+- Criar o projeto poetry
+```bash
+poetry init
+```
+next next next
+
+- Criar o venv com poetry
+```bash
+poetry env use 3.11.5 (ou a versão do python que preferir)
+```
+
+- Abrir um shell do poetry com o env ativado
+```bash
+poetry shell
+```
+
+- Adicionar o dbt-postgres como dependencia ao projeto
+```bash
+poetry add dbt-postgres
+```	
+
+- Iniciar o projeto dbt
+```bash
+dbt init
+```	
+
+- Escolha um nome para o projeto
+```bash
+northwind
+```	
+
+### Setup do profile (preencha conforme abaixo)
+bash
+
+Which database would you like to use?
+[1] postgres
+
+Enter a number: `1`
+host (hostname for the instance): `localhost`
+port [5432]: `55432`
+user (dev username): postgres
+pass (dev password): postgres
+dbname (default database that dbt will build objects in): `northwind`
+schema (default schema that dbt will build objects in): `public`
+threads (1 or more) [1]: `1`
+
+- Entre na pasta do projeto
+```bash
+cd northwind
+```	
+
+- Teste a conexão
+```bash
+dbt debug
+```	
+-----------------------------------------------------------------------
+
 ### Passos para configuração com Docker:
 
 1. **Iniciar o Docker Compose** Execute o comando abaixo para subir os serviços:
@@ -221,6 +285,7 @@ Configure um novo servidor no PgAdmin:
         * Nome do host: db
         * Nome de usuário: postgres
         * Senha: postgres Em seguida, selecione o banco de dados "northwind".
+
 
 3. **Parar o Docker Compose** Pare o servidor iniciado pelo comando `docker-compose up` usando Ctrl-C e remova os contêineres com:
     

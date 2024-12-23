@@ -1,0 +1,152 @@
+[0m14:57:43.539456 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000147D40C8770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000147D6B1F860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000147D6B27860>]}
+
+
+============================== 14:57:43.579755 | 1944108d-0b49-4bcf-9862-97845d07109e ==============================
+[0m14:57:43.579755 [info ] [MainThread]: Running with dbt=1.9.1
+[0m14:57:43.579755 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\alerr\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:58:27.557807 [debug] [MainThread]: Starter project path: C:\Users\alerr\workspace\jornadadedados\bootcamp_DBT\DBT_Northwind-SQL-Analytics\.venv\Lib\site-packages\dbt\include\starter_project
+[0m14:58:27.593335 [info ] [MainThread]: 
+Your new dbt project "nothwind" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:58:27.597639 [info ] [MainThread]: Setting up your profile.
+[0m15:00:05.617089 [info ] [MainThread]: Profile nothwind written to C:\Users\alerr\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:00:05.621560 [debug] [MainThread]: Command `dbt init` succeeded at 15:00:05.620113 after 142.25 seconds
+[0m15:00:05.621560 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000147D80254C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000147D66BA7E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000147D60E59A0>]}
+[0m15:00:05.621560 [debug] [MainThread]: Flushing usage events
+[0m15:00:06.033436 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:02:46.448550 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DADB011520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DADA870140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DADA41EF60>]}
+
+
+============================== 15:02:46.461997 | ada25778-0826-4def-bd08-ca1a0ffc8ae4 ==============================
+[0m15:02:46.461997 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:02:46.464964 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\alerr\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m15:03:39.500411 [debug] [MainThread]: Starter project path: C:\Users\alerr\workspace\jornadadedados\bootcamp_DBT\DBT_Northwind-SQL-Analytics\.venv\Lib\site-packages\dbt\include\starter_project
+[0m15:03:39.538019 [info ] [MainThread]: 
+Your new dbt project "northwind" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:03:39.538019 [info ] [MainThread]: Setting up your profile.
+[0m15:04:05.145898 [error] [MainThread]: Encountered an error:
+
+[0m15:04:05.148067 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\alerr\workspace\jornadadedados\bootcamp_DBT\DBT_Northwind-SQL-Analytics\.venv\Lib\site-packages\dbt\cli\requires.py", line 153, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alerr\workspace\jornadadedados\bootcamp_DBT\DBT_Northwind-SQL-Analytics\.venv\Lib\site-packages\dbt\cli\requires.py", line 103, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alerr\workspace\jornadadedados\bootcamp_DBT\DBT_Northwind-SQL-Analytics\.venv\Lib\site-packages\dbt\cli\main.py", line 477, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\alerr\workspace\jornadadedados\bootcamp_DBT\DBT_Northwind-SQL-Analytics\.venv\Lib\site-packages\dbt\task\init.py", line 346, in run
+    self.setup_profile(profile_name)
+  File "C:\Users\alerr\workspace\jornadadedados\bootcamp_DBT\DBT_Northwind-SQL-Analytics\.venv\Lib\site-packages\dbt\task\init.py", line 262, in setup_profile
+    self.create_profile_from_target(adapter, profile_name=profile_name)
+  File "C:\Users\alerr\workspace\jornadadedados\bootcamp_DBT\DBT_Northwind-SQL-Analytics\.venv\Lib\site-packages\dbt\task\init.py", line 179, in create_profile_from_target
+    self.create_profile_from_profile_template(profile_template, profile_name)
+  File "C:\Users\alerr\workspace\jornadadedados\bootcamp_DBT\DBT_Northwind-SQL-Analytics\.venv\Lib\site-packages\dbt\task\init.py", line 163, in create_profile_from_profile_template
+    target = self.generate_target_from_input(prompts, initial_target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alerr\workspace\jornadadedados\bootcamp_DBT\DBT_Northwind-SQL-Analytics\.venv\Lib\site-packages\dbt\task\init.py", line 129, in generate_target_from_input
+    target[key] = click.prompt(
+                  ^^^^^^^^^^^^^
+  File "C:\Users\alerr\workspace\jornadadedados\bootcamp_DBT\DBT_Northwind-SQL-Analytics\.venv\Lib\site-packages\click\termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+            ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alerr\workspace\jornadadedados\bootcamp_DBT\DBT_Northwind-SQL-Analytics\.venv\Lib\site-packages\click\termui.py", line 147, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m15:04:05.156794 [debug] [MainThread]: Command `dbt init` failed at 15:04:05.156794 after 78.97 seconds
+[0m15:04:05.158310 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DADAB2E7B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DADB11D580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DADB0997C0>]}
+[0m15:04:05.159070 [debug] [MainThread]: Flushing usage events
+[0m15:04:06.001782 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:04:41.067806 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016A131D7F50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016A161172F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016A15751370>]}
+
+
+============================== 15:04:41.081392 | 296c4433-ca74-46ed-b184-df6bff5aa431 ==============================
+[0m15:04:41.081392 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:04:41.081392 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\alerr\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:04:43.461098 [error] [MainThread]: Encountered an error:
+
+[0m15:04:43.476060 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\alerr\workspace\jornadadedados\bootcamp_DBT\DBT_Northwind-SQL-Analytics\.venv\Lib\site-packages\dbt\cli\requires.py", line 153, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alerr\workspace\jornadadedados\bootcamp_DBT\DBT_Northwind-SQL-Analytics\.venv\Lib\site-packages\dbt\cli\requires.py", line 103, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alerr\workspace\jornadadedados\bootcamp_DBT\DBT_Northwind-SQL-Analytics\.venv\Lib\site-packages\dbt\cli\main.py", line 477, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\alerr\workspace\jornadadedados\bootcamp_DBT\DBT_Northwind-SQL-Analytics\.venv\Lib\site-packages\dbt\task\init.py", line 324, in run
+    project_name = self.get_valid_project_name()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alerr\workspace\jornadadedados\bootcamp_DBT\DBT_Northwind-SQL-Analytics\.venv\Lib\site-packages\dbt\task\init.py", line 278, in get_valid_project_name
+    name = click.prompt("Enter a name for your project (letters, digits, underscore)")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alerr\workspace\jornadadedados\bootcamp_DBT\DBT_Northwind-SQL-Analytics\.venv\Lib\site-packages\click\termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+            ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alerr\workspace\jornadadedados\bootcamp_DBT\DBT_Northwind-SQL-Analytics\.venv\Lib\site-packages\click\termui.py", line 147, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m15:04:43.481144 [debug] [MainThread]: Command `dbt init` failed at 15:04:43.481144 after 2.59 seconds
+[0m15:04:43.481144 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016A163BB8F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016A165D0740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016A167D2300>]}
+[0m15:04:43.483126 [debug] [MainThread]: Flushing usage events
+[0m15:04:44.087047 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:05:03.709300 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000192ECFE6FC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000192ECFE5490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000192ECFE7830>]}
+
+
+============================== 15:05:03.709300 | 6d5b0bdf-0ece-41f4-bbd6-520fc4fb8800 ==============================
+[0m15:05:03.709300 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:05:03.709300 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\alerr\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:05:11.276724 [debug] [MainThread]: Starter project path: C:\Users\alerr\workspace\jornadadedados\bootcamp_DBT\DBT_Northwind-SQL-Analytics\.venv\Lib\site-packages\dbt\include\starter_project
+[0m15:05:11.314612 [info ] [MainThread]: 
+Your new dbt project "northwind" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:05:11.314612 [info ] [MainThread]: Setting up your profile.
+[0m15:09:05.590450 [info ] [MainThread]: Profile northwind written to C:\Users\alerr\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:09:05.590450 [debug] [MainThread]: Command `dbt init` succeeded at 15:09:05.590450 after 242.07 seconds
+[0m15:09:05.590450 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000192EC680EF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000192ECD01280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000192ED3178F0>]}
+[0m15:09:05.590450 [debug] [MainThread]: Flushing usage events
+[0m15:09:06.001736 [debug] [MainThread]: An error was encountered while trying to flush usage events
