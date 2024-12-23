@@ -234,6 +234,7 @@ northwind
 ### Setup do profile (preencha conforme abaixo)
 bash
 
+```bash
 Which database would you like to use?
 [1] postgres
 
@@ -245,6 +246,7 @@ pass (dev password): postgres
 dbname (default database that dbt will build objects in): `northwind`
 schema (default schema that dbt will build objects in): `public`
 threads (1 or more) [1]: `1`
+```
 
 - Entre na pasta do projeto
 ```bash
