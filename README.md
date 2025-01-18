@@ -289,6 +289,9 @@ Configure um novo servidor no PgAdmin:
         * Senha: postgres Em seguida, selecione o banco de dados "northwind".
 
 
+![pgadmin](https://github.com/alerrandrofrederik/DBT_Northwind-SQL-Analytics-/blob/main/pics/config_pgadmin.png)
+
+
 3. **Parar o Docker Compose** Pare o servidor iniciado pelo comando `docker-compose up` usando Ctrl-C e remova os contêineres com:
     
     ```
