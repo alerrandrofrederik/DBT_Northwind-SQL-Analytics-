@@ -6,8 +6,9 @@ authors = ["Alerrandro <alerrandrofrederik@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.8"
 dbt-postgres = "^1.9.0"
+agate = "^1.12.0"
 
 
 [build-system]
